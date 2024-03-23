@@ -121,6 +121,14 @@ public class CartManager {
         return database.update("cart_item", values, whereClause, whereArgs);
     }
 
+    public void deleteCartItem(int cartId, int productId) {
+        String selection = "cart_id = ? AND product_id = ?";
+        String[] selectionArgs = {String.valueOf(cartId), String.valueOf(productId)};
+
+        // Delete the cart item based on cart ID and product ID
+        database.delete("cart_item", selection, selectionArgs);
+    }
+
 
     public List<CartItem> getCartItems(int cartId) {
         List<CartItem> cartItems = new ArrayList<>();

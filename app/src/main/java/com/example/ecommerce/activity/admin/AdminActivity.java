@@ -1,4 +1,4 @@
-package com.example.ecommerce.activity;
+package com.example.ecommerce.activity.admin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.example.ecommerce.CONSTANT;
 import com.example.ecommerce.R;
+import com.example.ecommerce.activity.user.ProfileActivity;
 
 public class AdminActivity extends AppCompatActivity {
 

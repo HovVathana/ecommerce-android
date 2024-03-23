@@ -1,4 +1,4 @@
-package com.example.ecommerce.activity;
+package com.example.ecommerce.activity.admin;
 
 import android.app.Activity;
 import android.content.Intent;

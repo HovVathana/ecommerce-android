@@ -1,7 +1,6 @@
-package com.example.ecommerce.activity;
+package com.example.ecommerce.activity.user;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -15,11 +14,9 @@ import android.widget.Toast;
 
 import com.example.ecommerce.CONSTANT;
 import com.example.ecommerce.R;
-import com.example.ecommerce.adapter.ProductAdapter;
 import com.example.ecommerce.adapter.RecentAdapter;
 import com.example.ecommerce.db.CartManager;
 import com.example.ecommerce.db.ProductManager;
-import com.example.ecommerce.model.CartItem;
 import com.example.ecommerce.model.Product;
 import com.google.android.material.bottomappbar.BottomAppBar;
 

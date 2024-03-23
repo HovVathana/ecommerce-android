@@ -1,4 +1,4 @@
-package com.example.ecommerce.activity;
+package com.example.ecommerce.activity.user;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,11 +11,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 
 
 import com.example.ecommerce.CONSTANT;
 import com.example.ecommerce.R;
+import com.example.ecommerce.activity.admin.AdminActivity;
 import com.example.ecommerce.db.DatabaseHelper;
 import com.example.ecommerce.db.DatabaseManager;
 

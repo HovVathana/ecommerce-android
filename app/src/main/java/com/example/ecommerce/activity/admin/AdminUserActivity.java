@@ -1,4 +1,4 @@
-package com.example.ecommerce.activity;
+package com.example.ecommerce.activity.admin;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;

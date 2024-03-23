@@ -1,21 +1,15 @@
 package com.example.ecommerce.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.ecommerce.R;
-import com.example.ecommerce.activity.AdminProductActivity;
-import com.example.ecommerce.activity.AdminProductAddActivity;
-import com.example.ecommerce.db.ProductManager;
-import com.example.ecommerce.model.Product;
 import com.example.ecommerce.model.User;
 
 import java.util.List;

@@ -12,8 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.ecommerce.R;
-import com.example.ecommerce.activity.AdminProductActivity;
-import com.example.ecommerce.activity.AdminProductAddActivity;
+import com.example.ecommerce.activity.admin.AdminProductAddActivity;
 import com.example.ecommerce.db.ProductManager;
 import com.example.ecommerce.model.Product;
 
