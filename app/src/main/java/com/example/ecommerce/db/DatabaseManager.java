@@ -34,14 +34,13 @@ public class DatabaseManager {
         dbHelper.close();
     }
 
-    public long insert(String username, String email, String password) {
+    public long insert(String username, String email, String password, String role) {
         ContentValues contentValue = new ContentValues();
         contentValue.put("email", email);
         contentValue.put("username", username);
         contentValue.put("password", password);
-        contentValue.put("role", "user");
+        contentValue.put("role", role);
         return database.insert("user", null, contentValue);
-
     }
 
     public Cursor checkEmailPassword(String email, String password) {

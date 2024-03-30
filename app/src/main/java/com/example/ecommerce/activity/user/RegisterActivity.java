@@ -47,7 +47,7 @@ public class RegisterActivity extends AppCompatActivity {
         String password = etPassword.getText().toString().trim();
 
 
-        long result = dbManager.insert(username, email, password);
+        long result = dbManager.insert(username, email, password, "user");
 
         // Check if insertion was successful
         if (result != -1) {

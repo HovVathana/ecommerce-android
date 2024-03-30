@@ -44,6 +44,14 @@ public class SignInActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        // manually create an admin account  * will remove later *
+        Cursor cursor = dbManager.checkEmailPassword("admin@email.com", "12345");
+
+        if (!cursor.moveToFirst()) {
+            long result = dbManager.insert("admin", "admin@email.com", "12345", "admin");
+        }
+
+
         Button btnSignIn = findViewById(R.id.btnSignIn);
         btnSignIn.setOnClickListener(this::onLoginClicked);
 

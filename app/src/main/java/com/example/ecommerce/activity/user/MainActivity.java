@@ -35,9 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
         fetchUserData();
 
-
-
-
         recyclerView = findViewById(R.id.recentView);
 
         btnProfile = findViewById(R.id.btnProfile);
@@ -47,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ProfileActivity.class));
             }
         });
-
 
         fetchProducts();
         SharedPreferences settings = getSharedPreferences(CONSTANT.LOGIN_PREF, 0);
